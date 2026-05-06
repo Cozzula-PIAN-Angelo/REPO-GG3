@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    width: 576px;
+    font-family: "Roboto", sans-serif;
+}
+.navigator {
+    background-image: url(https://media.cntraveler.com/photos/68ff82e7977accaf27ac5b35/16:9/w_2560%2Cc_limit/GettyImages-2078516558.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 576px;
+    height: 50vh;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+nav a,
+a:visited {
+    color: aqua;
+
+}
+
+
+h2,
+h1 {
+    color: rgb(0, 0, 158);
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(159, 236, 255);
+
+}
+
+#competenze li:nth-child(even) {
+    background-color: rgb(159, 236, 255);
+
+
+}
+
+#progetti {
+    background-color: rgb(245, 245, 232);
+}
+
+
+a:hover {
+    color: red;
+}
+
+#contatti form div {
+    margin-block: 1.3em;
+
+    label {
+        display: block;
+        color: rgb(0, 0, 158);
+    }
+
+    input,
+    textarea,
+    select {
+        width: 80%;
+    }
+    button {
+        background-color: rgb(0, 0, 158);
+        color: white;
+    }
+
+}
+footer p {
+    background-color: rgb(0, 0, 158);
+    color: white;
+    text-align: center;
+}
+#consense {
+    width: auto;
+}
+
+.focus:focus {
+background-color: rgb(145, 145, 145);
+color: rgb(255, 255, 255);    
+}
+
+
+
+    
