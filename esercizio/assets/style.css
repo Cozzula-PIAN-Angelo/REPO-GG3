@@ -74,6 +74,9 @@ footer p {
 #consense {
     width: auto;
 }
+#label-consense, #consense{
+    display: inline;
+}
 
 .focus:focus {
 background-color: rgb(145, 145, 145);
