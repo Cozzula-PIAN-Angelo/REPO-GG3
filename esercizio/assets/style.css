@@ -1,14 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-    width: 576px;
     font-family: "Roboto", sans-serif;
 }
 .navigator {
     background-image: url(https://media.cntraveler.com/photos/68ff82e7977accaf27ac5b35/16:9/w_2560%2Cc_limit/GettyImages-2078516558.jpg);
     background-size: cover;
     background-position: center;
-    width: 576px;
+    width: ;
     height: 50vh;
     text-align: center;
     font-size: 2em;
@@ -58,7 +57,7 @@ a:hover {
     input,
     textarea,
     select {
-        width: 80%;
+        width: 40%;
     }
     #label-consense {
         display: inline;
